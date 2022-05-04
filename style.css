@@ -1,0 +1,49 @@
+form {
+  width: 500px;
+  padding: 15px 40px 40px;
+  margin: 50px;
+  margin-left: 30%;
+  border: 1px solid #000000;
+  border-radius: 2px;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  padding-bottom: 15px;
+}
+
+.item {
+  padding-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.form-inline {
+  border: 1px solid #ccc;
+  padding: 8px 10px 4px;
+  border-radius: 2px;
+}
+
+.form-inline label,
+.form-inline input {
+  display: inline-block;
+  width: auto;
+  padding-right: 15px;
+}
+
+.error {
+  color: red;
+  font-size: 90%;
+}
