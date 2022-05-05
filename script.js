@@ -2,7 +2,7 @@ function showErr(elemId, message) {
   document.getElementById(elemId).innerHTML = message;
 }
 
-// var form = document.getElementById("appForm");
+var form = document.getElementById("appForm");
 
 function validation() {
   // form.addEventListener("submit", (e) => {
@@ -92,4 +92,5 @@ function validation() {
   } else {
     console.log(name, email, phone, address, city, gender, hobbies);
   }
+  form.reset();
 }
