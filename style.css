@@ -47,3 +47,10 @@ select {
   color: red;
   font-size: 90%;
 }
+
+.button {
+  text-align: center;
+  background-color: #b4f8c9;
+  font-size: 15px;
+  color: black;
+}
